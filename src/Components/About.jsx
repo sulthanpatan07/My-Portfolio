@@ -45,11 +45,11 @@ const About = () => {
       color: "from-purple-500 to-pink-600",
       bgColor: "from-purple-50 to-pink-50",
       shadowColor: "shadow-purple-500/25",
-      stats: "5+ Projects"
+      stats: "4 Projects"
     }
   ];
 
-  const skills = ["React.js", "Spring Boot", "Node.js", "MongoDB", "JavaScript", "Java"];
+  const skills = ["React.js", "Spring Boot", "Spring","MYSQL", "JavaScript", "Java"];
   const interests = [
     { icon: Coffee, label: "Problem Solving" },
     { icon: Rocket, label: "Innovation" },
