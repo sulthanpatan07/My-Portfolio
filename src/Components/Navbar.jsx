@@ -36,7 +36,7 @@ const Navbar = () => {
         </motion.h1>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex gap-8 font-medium text-gray-700">
+        <ul className="hidden md:flex gap-8 font-medium text-gray-700 items-center">
           {links.map((item, index) => (
             <motion.li
               key={item}
@@ -54,6 +54,18 @@ const Navbar = () => {
               </a>
             </motion.li>
           ))}
+
+          {/* Desktop Resume Button */}
+          <motion.li>
+            <a
+              href="/patan_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-4 px-5 py-2 rounded-full font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-indigo-600 hover:to-blue-600 transition-all shadow-md"
+            >
+              Resume
+            </a>
+          </motion.li>
         </ul>
 
         {/* Social Icons */}
@@ -118,6 +130,18 @@ const Navbar = () => {
                   </a>
                 </motion.li>
               ))}
+
+              {/* Mobile Resume Button */}
+              <motion.li>
+                <a
+                  href="/patan_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block mt-4 px-5 py-2 rounded-full font-medium text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-indigo-600 hover:to-blue-600 transition-all text-center shadow-md"
+                >
+                  Resume
+                </a>
+              </motion.li>
             </ul>
 
             {/* Mobile Social Icons */}
